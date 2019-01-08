@@ -11,7 +11,6 @@ import { FormControl, FormGroup, Validators }     from '@angular/forms';
 
             <div class="container mat-elevation-z4">
 
-
                 <div class="title"
                      [style.background]="titleBackgroundColor">
 
@@ -113,6 +112,7 @@ export class NgxuxMatLoginComponent {
         email: new FormControl('', [
 
             Validators.required,
+            Validators.pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$')
 
         ]),
 
