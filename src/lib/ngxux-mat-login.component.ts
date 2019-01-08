@@ -60,7 +60,7 @@ import { FormControl, FormGroup, Validators }     from '@angular/forms';
                                                placeholder="Password"
                                                maxlength="255"
                                                type="password"
-                                               formControlName="email">
+                                               formControlName="password">
 
                                     </mat-form-field>
 
